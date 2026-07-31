@@ -1,0 +1,59 @@
+# ACT Robot Manipulation Configuration
+# LeRobot ACT policy training
+
+project:
+  name: act-piper-robot-manipulation
+  framework: LeRobot
+
+
+robot:
+  leader:
+    name: SO101
+    role: teleoperation_leader
+
+  follower:
+    name: Piper
+    role: robot_execution
+
+
+dataset:
+  name: piper_record_test
+
+  collection:
+    framework: LeRobot-record
+    method: leader_follower_teleoperation
+
+  statistics:
+    episodes: 55
+    frames: 13311
+    fps: 15
+
+
+  observations:
+    cameras:
+      - camera1
+      - camera2
+
+    robot_state: true
+
+
+policy:
+  type: act
+
+
+training:
+  command:
+    framework: lerobot-train
+
+  device:
+    accelerator: cuda
+
+  logging:
+    wandb: false
+
+  push_to_hub: false
+
+
+output:
+  directory:
+    outputs/train/act_piper_test
