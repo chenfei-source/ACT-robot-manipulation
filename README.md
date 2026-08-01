@@ -17,9 +17,7 @@ The pipeline includes robot demonstration collection, dataset processing, ACT po
 # Overview
 
 Action Chunking with Transformers (ACT) is a transformer-based imitation learning method that predicts future action sequences from robot observations.
-
-This project investigates ACT-based manipulation learning on a real robotic platform.
-
+This project reproduces an ACT-based imitation learning pipeline and investigates leader-follower teleoperation for real robot manipulation.
 
 The overall pipeline:
 
