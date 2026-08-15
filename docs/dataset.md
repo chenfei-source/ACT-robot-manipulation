@@ -28,14 +28,23 @@ The Piper arm follows the demonstrated trajectories and records the correspondin
 
 
 The complete data collection pipeline:
+
 Human Demonstration
+
     ↓
+    
 SO101 Leader Arm
+
     ↓
+    
 LeRobot-record
+
     ↓
+    
 Piper Robot Execution
+
     ↓
+    
 Robot Demonstration Dataset
 
 
@@ -108,12 +117,19 @@ The collection process:
 The dataset is used for supervised imitation learning.
 
 Training objective:
+
 Robot Observation
+
     ↓
+    
 ACT Policy
+
     ↓
+    
 Predicted Action Chunk
+
     ↓
+    
 Robot Execution
 
 
