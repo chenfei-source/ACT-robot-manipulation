@@ -10,7 +10,7 @@ The pipeline includes robot demonstration collection, dataset processing, ACT po
 # 🎥 Demo
 
 <p align="center">
-  <img src="assets/ACT_demo.gif" width="640">
+  <img src="assets/demo.gif" width="640">
 </p>
 
 
