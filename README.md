@@ -26,16 +26,27 @@ The overall pipeline:
 </p>
 
 Human Demonstration  
-↓  
+      ↓  
 SO101 Leader Arm  
-↓  
+      ↓  
 LeRobot-record Data Collection  
-↓  
+      ↓  
 Dataset Processing  
-↓  
+      ↓  
 ACT Policy Training  
-↓  
+      ↓  
 Piper Robot Deployment
+
+# Results
+
+The trained ACT was evaluated on the real Piper robotic arm.
+
+The robot successfully completes the manipulation task.
+
+
+https://github.com/user-attachments/assets/7eb6d431-186a-46ee-a3f6-4e80f1d5d62d
+
+
 
 
 # Hardware
