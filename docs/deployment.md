@@ -8,16 +8,27 @@ The deployment uses the LeRobot rollout framework to load the trained ACT checkp
 ## 1. Deployment Overview
 
 The complete deployment pipeline:
+
 ACT Checkpoint
+
     ↓
+    
 LeRobot Rollout
+
     ↓
+    
 Camera Observation
+
     ↓
+    
 ACT Policy
+
     ↓
+    
 Predicted Action Chunk
+
     ↓
+    
 Piper Robot Execution
 
 
@@ -61,9 +72,13 @@ The deployment camera configuration should match the training data collection se
 Requirements:
 
 Same camera viewpoints
+
 Same camera indexes
+
 Similar lighting conditions
+
 Similar object initial positions
+
 Example camera configuration:
 
 front camera:
