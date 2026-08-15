@@ -26,15 +26,25 @@ The overall pipeline:
 </p>
 
 Human Demonstration  
-      ↓  
+
+       ↓  
+       
 SO101 Leader Arm  
-      ↓  
+
+       ↓  
+       
 LeRobot-record Data Collection  
-      ↓  
+
+       ↓  
+       
 Dataset Processing  
-      ↓  
+
+       ↓  
+       
 ACT Policy Training  
-      ↓  
+
+       ↓  
+       
 Piper Robot Deployment
 
 # Results
