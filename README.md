@@ -27,23 +27,23 @@ The overall pipeline:
 
 Human Demonstration  
 
-       ↓  
+    ↓  
        
 SO101 Leader Arm  
 
-       ↓  
+    ↓  
        
 LeRobot-record Data Collection  
 
-       ↓  
+    ↓  
        
 Dataset Processing  
 
-       ↓  
+    ↓  
        
 ACT Policy Training  
 
-       ↓  
+    ↓  
        
 Piper Robot Deployment
 
@@ -118,12 +118,19 @@ More details:
 The ACT policy is trained using the LeRobot training framework.
 
 Training process:
+
 LeRobot Dataset
+
     ↓
+    
 ACT Policy
+
     ↓
+    
 Behavior Cloning Training
+
     ↓
+    
 Checkpoint
 
 Training details:
@@ -135,16 +142,27 @@ Training details:
 
 The trained ACT checkpoint is deployed on the real Piper robot using LeRobot rollout.
 Deployment pipeline:
+
 ACT Checkpoint
+
     ↓
+    
 LeRobot Rollout
+
     ↓
+    
 Camera Observation
+
     ↓
+    
 ACT Policy
+
     ↓
+    
 Robot Action
+
     ↓
+    
 Piper Execution
 Deployment details:
 
