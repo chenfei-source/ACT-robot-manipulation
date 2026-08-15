@@ -8,14 +8,23 @@ The cloud server is used only for model training. Robot hardware (SO101 leader a
 ## 1. Training Overview
 
 The ACT training pipeline:
+
 Robot Demonstrations
+
     ↓
+    
 LeRobot Dataset
+
     ↓
+    
 ACT Policy Training
+
     ↓
+    
 Checkpoint Saving
+
     ↓
+    
 Robot Deployment
 
 The training uses:
